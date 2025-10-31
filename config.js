@@ -152,7 +152,7 @@ const config = {
     "repoName": "Open-House-660",
     "repoUrl": "https://github.com/arslvn93/Open-House-660",
     "tag": "Open House 9061 County Road 44 ",
-    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/CVLYBNRm65xkdYXWeFCq/webhook-trigger/Bz5U2LrvSTZglC5ZrM8D",
     "siteId": "fe79e8b2-797c-4920-82a9-c08b2292a788"
   }
 };
