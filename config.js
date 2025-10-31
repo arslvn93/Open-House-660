@@ -4,7 +4,7 @@ const config = {
     "city": "Spencerville",
     "cityStateZip": "Spencerville, Ontario K0E 1X0",
     "heroSubtitle": "Prepare to be transformed by this stunning Detached that represents the pinnacle of residential design. With 3 carefully curated bedrooms, 1 luxurious bathrooms, and an expansive 1100-1500 sq ft floor plan, this home is more than just a living space – it's a lifestyle statement. Every inch has been thoughtfully crafted to provide an exceptional living experience that balances aesthetic appeal with practical functionality, creating a harmonious environment that adapts to your most discerning needs.",
-    "backgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761767562696-No pictures available until thursday.png"
+    "backgroundImageUrl": "https://i.ibb.co/M52KhqnF/Untitled-design.jpg"
   },
   "realtor": {
     "fullName": "Nicole Garrett",
@@ -14,7 +14,7 @@ const config = {
     "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-1487654.jpg",
     "bio": "With years of real estate service under our belt, we can assure you that you are in good hands with our team. We are committed to listening to our clients, focusing on their needs and using keen negotiating skills to ensure a successful transaction for both buyers and sellers. With deep local knowledge and a true passion for real estate, we're committed to helping you find the perfect place to call home. Let's make your next move an exciting and rewarding one — we can't wait to work with you!",
     "social": {
-      "facebook": "#",
+      "facebook": "",
       "instagram": "https://www.instagram.com/realbrokerage/",
       "website": "https://onereal.ca/"
     }
@@ -27,35 +27,35 @@ const config = {
   "openHouse": {
     "eventDate": "",
     "bundleItems": [
-            {
-                  "icon": "fas fa-star",
-                  "text": "Neighbourhood Guide"
-            },
-            {
-                  "icon": "fas fa-check-circle",
-                  "text": "Market Stats"
-            },
-            {
-                  "icon": "fas fa-car",
-                  "text": "School District Information"
-            },
-            {
-                  "icon": "fas fa-key",
-                  "text": "Financing Resources"
-            },
-            {
-                  "icon": "fas fa-home",
-                  "text": "Utility Cost Estimates"
-            },
-            {
-                  "icon": "fas fa-map-location-dot",
-                  "text": "Property Feature List"
-            },
-            {
-                  "icon": "fas fa-image",
-                  "text": "Home Inspection Tips"
-            }
-      ]
+      {
+        "icon": "fas fa-star",
+        "text": "Neighbourhood Guide"
+      },
+      {
+        "icon": "fas fa-check-circle",
+        "text": "Market Stats"
+      },
+      {
+        "icon": "fas fa-car",
+        "text": "School District Information"
+      },
+      {
+        "icon": "fas fa-key",
+        "text": "Financing Resources"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "Utility Cost Estimates"
+      },
+      {
+        "icon": "fas fa-map-location-dot",
+        "text": "Property Feature List"
+      },
+      {
+        "icon": "fas fa-image",
+        "text": "Home Inspection Tips"
+      }
+    ]
   },
   "meta": {
     "pageTitlePrefix": "🏡 Nicole Garrett Open House",
@@ -78,36 +78,72 @@ const config = {
       "id": "agent_status",
       "questionText": "Are you currently exploring homes with a real estate agent?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
       ]
     },
     {
       "id": "interest_level",
       "questionText": "How interested are you in this Detached?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        {
+          "value": "very_interested",
+          "text": "Very interested, actively looking."
+        },
+        {
+          "value": "somewhat_interested",
+          "text": "Somewhat interested, keeping options open."
+        },
+        {
+          "value": "just_browsing",
+          "text": "Just browsing for now."
+        }
       ]
     },
     {
       "id": "neighborhood_engagement",
       "questionText": "How do you usually enjoy the neighborhood?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        {
+          "value": "resident_explorer",
+          "text": "I live here and love exploring locally."
+        },
+        {
+          "value": "considering_move",
+          "text": "I'm considering moving to this area."
+        },
+        {
+          "value": "just_visiting",
+          "text": "Just visiting for the open house."
+        }
       ]
     },
     {
       "id": "feature_attraction",
       "questionText": "What feature attracted you to this home?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        {
+          "value": "design_layout",
+          "text": "The design and layout."
+        },
+        {
+          "value": "location_neighborhood",
+          "text": "The location and neighborhood."
+        },
+        {
+          "value": "home_price",
+          "text": "The price of the home."
+        }
       ]
     }
   ],
