@@ -14,9 +14,9 @@ const config = {
     "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-1487654.jpg",
     "bio": "With years of real estate service under our belt, we can assure you that you are in good hands with our team. We are committed to listening to our clients, focusing on their needs and using keen negotiating skills to ensure a successful transaction for both buyers and sellers. With deep local knowledge and a true passion for real estate, we're committed to helping you find the perfect place to call home. Let's make your next move an exciting and rewarding one — we can't wait to work with you!",
     "social": {
-      "facebook": "",
-      "instagram": "https://www.instagram.com/realbrokerage/",
-      "website": "https://onereal.ca/"
+      "facebook": "https://www.facebook.com/driscollpecateam",
+      "instagram": "https://www.instagram.com/driscollpecateam/",
+      "website": "http://driscollpeca.com/"
     }
   },
   "brokerage": {
